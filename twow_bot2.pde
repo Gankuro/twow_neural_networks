@@ -7,7 +7,6 @@ void setup(){
   //create initial population
   for(int i = 0; i < bots.length; i++){
     bots[i] = new bot(i, new node[10]);
-    bots[i].create;
   }
 }
 void draw(){
