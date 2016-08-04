@@ -1,7 +1,7 @@
 class bot{
   int id;
-  node[] nodes = new node[10];
-  bot(int I, node[] N){
+  int[] nodes = new int[nodeCount];
+  bot(int I, int[] N){
     id = I;
     nodes = N;
   }
